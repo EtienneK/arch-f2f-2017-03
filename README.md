@@ -2,4 +2,4 @@
 
 - [Spring Boot Demo](./README-spring-boot-demo.md)
 - [Heroku Demo](./README-heroku-demo.md)
-- Presentation (PDF)
+- [Presentation (Powerpoint)](./presentation.pptx)
