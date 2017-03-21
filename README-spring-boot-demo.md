@@ -35,7 +35,7 @@ security.user.password=password
 
 ```
 spring.jpa.database=postgresql
-spring.datasource.url=
+spring.datasource.url=${JDBC_DATABASE_URL}
 spring.jpa.hibernate.ddl-auto=update
 ```
 
