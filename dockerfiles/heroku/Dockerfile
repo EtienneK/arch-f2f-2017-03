@@ -10,3 +10,6 @@ RUN apt-get -y install git heroku
 RUN mkdir /app
 
 VOLUME /app
+
+WORKDIR /app
+
