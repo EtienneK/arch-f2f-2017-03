@@ -35,9 +35,11 @@ security.user.password=password
 
 ```
 spring.jpa.database=postgresql
-spring.datasource.url=jdbc:postgresql://localhost:5432/postgres?user=user&password=password
+spring.datasource.url=
 spring.jpa.hibernate.ddl-auto=update
 ```
+
+> For local connections, use this connection string: `jdbc:postgresql://localhost:5432/postgres?user=postgres&password=password`
 
 6.  Create test properties in bash:
 ```
