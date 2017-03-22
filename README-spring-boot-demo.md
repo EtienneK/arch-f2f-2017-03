@@ -10,7 +10,7 @@ docker run --rm -e \
 2.  Open a new Bash window,
     create a Spring Boot application and build it:
 ```
-spring init -d=data-jpa,data-rest,data-rest-hal,security,postgresql,h2,lombok
+spring init -b="1.5.2.RELEASE" -d=data-jpa,data-rest,data-rest-hal,security,postgresql,h2,lombok
 unzip demo.zip -d demo
 cd demo
 ./mvnw clean package
